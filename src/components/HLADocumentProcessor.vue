@@ -36,10 +36,10 @@
       </div>
       <div class="flex items-center justify-around">
         <button @click="processImage('openai')" :disabled="!selectedFile || isProcessing" class="process-btn">
-          {{ isProcessing ? 'Processing...' : 'Process with OpenAI' }}
+          {{ isProcessing ? 'Processing...' : 'Process with AI' }}
         </button>
         <button @click="processImage('python')" :disabled="!selectedFile || isProcessing" class="process-btn">
-          {{ isProcessing ? 'Processing...' : 'Process with Python' }}
+          {{ isProcessing ? 'Processing...' : 'Process with OCR' }}
         </button>
         
         <!-- Download Button with Dropdown -->
